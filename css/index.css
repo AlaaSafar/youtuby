@@ -1,0 +1,199 @@
+@font-face {
+    font-family:cairoFont;
+    src: url(../font/Cairo-Regular.ttf);
+}
+
+body{
+    font-family: "cairoFont",Arial,  Helvetica, sans-serif;
+    background-color:wheat;
+    
+}
+a{
+    color: #000;
+    text-decoration: none !important;
+}
+#top-menu .bg-light{
+    background-color: chocolate !important;   
+}
+button{
+    background-color: transparent !important;
+    color: wheat !important;
+    border-color: wheat !important;
+}
+button:hover{
+    color: #000 !important;
+    background-color: wheat !important;
+}
+
+.content h4{
+    text-align: center;
+    color: chocolate !important;
+}
+#top-menu .video-icon{
+    background-color: wheat;
+    color:#000;
+    border-radius: 15%;
+    padding: 5px;
+}
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .active>.nav-link{
+    color: #000;
+    background-color: wheat;
+}
+.navbar .login{
+    color: wheat;
+}
+.modal-footer button{
+    border-color: chocolate !important;
+    color: chocolate !important;
+}
+.modal-footer a{
+    color: chocolate;
+}
+.modal .modal-header .close{
+    color: chocolate !important;
+    background-color: transparent !important;
+}
+input .form-control:focus,
+button:focus{
+    box-shadow: none !important;
+}
+.card .card-icons{
+    position: relative;
+}
+time{
+    position: absolute;
+    bottom: 10px;
+    left: 7px;
+    background-color: #000;
+    padding: 0px 3px;
+    color: #fff;
+}
+
+.card .fa-play{
+    position: absolute;
+    top: 43%;
+    left: 41%;
+    display: none;
+    color:#000
+}
+.card:hover .fa-play{
+    display: inline;
+}
+.card:hover{
+    transform: translateY(-.9%);
+}
+.card{
+    transition: transform .5s;
+}
+.card .card-title{
+    height: 50px;
+    overflow: hidden;
+}
+.card .card-horizontal .card-body p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.card-body{
+    min-width: 0;
+}
+#top-menu .fa-bars{
+    cursor: pointer;
+}
+.sidebar{
+    position: fixed;
+    z-index: 4;
+    right: -17rem;
+    transition: all 0.5s ease-in-out;
+    height: 100%;
+    background-color: #fff;
+    overflow: hidden;
+    padding-bottom: 70px;
+}
+.sidebar:hover{
+    overflow-y: scroll;
+}
+.sidebar .purple{
+    color:chocolate;
+}
+.sidebar .list-group-item:hover{
+    color: chocolate;
+    background-color: wheat;
+}
+.sidebar .list-group-item:hover .purple{
+    color: #000;
+}
+.sidebar .list-group-item{
+    width: 17rem;
+}
+#wrap.toggled .sidebar{
+    right: 0rem;
+}
+.sidebar::-webkit-scrollbar{
+    background-color: rgb(230,230,230);
+    width: 8px;
+}
+.sidebar::-webkit-scrollbar-thumb{
+    background-color: rgb(179,179,179);
+    width: 8px;
+}
+.A{
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    background-color: rgba(0, 0, 0,0.5);
+    height: 100vh;
+    width: 100%;
+    display: none;
+}
+.navbar .search-icon{
+    cursor: pointer;
+    position: absolute;
+    display: none;
+    padding: 15px 10px;
+    top: 15px;
+    left: 132px;
+    color: wheat;
+}
+.navbar .search-icon:hover{
+    color:#000;
+    background-color: wheat;
+}
+.search-input{
+    position: fixed;
+    border: none;
+    display: none;
+    padding:6px 23px;
+    height: 60px;
+    top: 72px;
+    z-index: 1;
+    background-color: #efeeee;
+
+}
+.search-input:hover{
+    background-color: #efeeee;
+}
+.container-fluid{
+    padding: 0px;
+    overflow: hidden;
+}
+@media(max-width:1117px){
+    /* إخفاء حقل البحث الموجود في القائمة العلوية*/
+    .navbar .collapse .form-inline{
+        display: none;
+    }
+    /* إظهار أيقونة البحث*/
+    .navbar .search-icon{
+        display: inline;
+    }
+   
+}
+@media(min-width:1117px){
+    .search-input{
+        display: none !important;
+    }
+}
+
+
+

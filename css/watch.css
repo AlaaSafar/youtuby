@@ -1,0 +1,73 @@
+.comments-details .btn{
+    border-color: chocolate !important;
+    color: chocolate !important;
+    margin-right: 5px;
+}
+.card:hover{
+    transform: translateY(0%);
+}
+.watch-page .watch-icons{
+    /*وضع أيقونات بأسفل الفيديو*/
+    position: absolute;
+    bottom:5px ;
+    right: 20px;
+}
+.watch-icons:hover{
+    cursor: pointer;
+}
+#myBtn {
+    border-color:chocolate !important ;
+    color: chocolate !important;  
+}
+#dropdownMenuButton:hover{
+    background-color: chocolate !important;
+    color: #000 !important;
+}
+
+.watch-page #more{
+    display: none;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+.card-inner{
+    display: none;
+}
+.watch-icons{
+    color: chocolate !important;
+   
+}
+.public-comment .card .btn{
+    color: #000 !important;
+    border-color: chocolate !important;
+    background-color: chocolate !important;
+}
+
+.public-comment .card .btn:hover{
+    background-color: wheat !important;
+}
+time{
+    left: 24px !important;
+}
+.watch-page .fa-play{
+    right: 46% !important;
+}
+@media(max-width:992px){
+    time{
+        font-size:13px;
+    }
+    .fa-play{
+        font-size:20px
+    }
+}
+@media(max-width:991px){
+    #myBtn{
+        margin-bottom: 60px !important;
+    }
+
+}
+@media(max-width:570px){
+    .reply-time{
+        font-size: 10px;
+    }
+}
